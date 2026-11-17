@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720">
+  <defs>
+    <linearGradient id="denimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#244263"/>
+      <stop offset="50%" stop-color="#1d3550"/>
+      <stop offset="100%" stop-color="#132437"/>
+    </linearGradient>
+    <linearGradient id="collarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2f547c"/>
+      <stop offset="100%" stop-color="#1d3550"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Main Body & Sleeves -->
+  <path d="M 200,45 
+           L 400,45 
+           L 490,85 
+           L 580,220 
+           L 515,265 
+           L 460,205 
+           L 455,620 
+           L 145,620 
+           L 140,205 
+           L 85,265 
+           L 20,220 
+           L 110,85 Z" 
+        fill="url(#denimGrad)" 
+        stroke="#416b99" 
+        stroke-width="2.5"
+        filter="url(#shadow)"/>
+
+  <!-- Front Center Placket / Button Seam -->
+  <rect x="288" y="100" width="24" height="520" fill="#182c42" stroke="#d49b43" stroke-width="1.5"/>
+
+  <!-- Golden Brass Buttons -->
+  <g fill="#d49b43" stroke="#875b1c" stroke-width="1.5">
+    <circle cx="300" cy="140" r="7"/>
+    <circle cx="300" cy="220" r="7"/>
+    <circle cx="300" cy="300" r="7"/>
+    <circle cx="300" cy="380" r="7"/>
+    <circle cx="300" cy="460" r="7"/>
+    <circle cx="300" cy="540" r="7"/>
+    <circle cx="300" cy="600" r="7"/>
+  </g>
+
+  <!-- Denim Flap Chest Pockets -->
+  <!-- Left Pocket -->
+  <path d="M 190,220 L 265,220 L 265,290 L 227,315 L 190,290 Z" fill="#1a3047" stroke="#d49b43" stroke-width="1.5"/>
+  <path d="M 185,220 L 270,220 L 227,245 Z" fill="#244263" stroke="#d49b43" stroke-width="1.5"/>
+  <circle cx="227" cy="235" r="4.5" fill="#d49b43"/>
+
+  <!-- Right Pocket -->
+  <path d="M 335,220 L 410,220 L 410,290 L 372,315 L 335,290 Z" fill="#1a3047" stroke="#d49b43" stroke-width="1.5"/>
+  <path d="M 330,220 L 415,220 L 372,245 Z" fill="#244263" stroke="#d49b43" stroke-width="1.5"/>
+  <circle cx="372" cy="235" r="4.5" fill="#d49b43"/>
+
+  <!-- Distinctive Denim Jacket Yoke Seams -->
+  <path d="M 145,170 L 455,170" stroke="#d49b43" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <path d="M 227,170 L 227,620" stroke="#d49b43" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <path d="M 372,170 L 372,620" stroke="#d49b43" stroke-width="1.2" stroke-dasharray="5,3"/>
+
+  <!-- Wide Folded Denim Collar -->
+  <path d="M 200,45 L 300,105 L 230,135 L 180,75 Z" fill="url(#collarGrad)" stroke="#4a7cb0" stroke-width="2"/>
+  <path d="M 400,45 L 300,105 L 370,135 L 420,75 Z" fill="url(#collarGrad)" stroke="#4a7cb0" stroke-width="2"/>
+  <path d="M 200,45 C 240,65 360,65 400,45 L 300,105 Z" fill="#132437"/>
+
+  <!-- Bottom Waistband -->
+  <rect x="145" y="585" width="310" height="35" fill="#182c42" stroke="#d49b43" stroke-width="1.5"/>
+</svg>

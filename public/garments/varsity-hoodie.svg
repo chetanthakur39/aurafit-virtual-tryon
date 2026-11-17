@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="740" viewBox="0 0 600 740">
+  <defs>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b"/>
+      <stop offset="50%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#450a0a"/>
+    </linearGradient>
+    <linearGradient id="pocketGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#881337"/>
+      <stop offset="100%" stop-color="#580b20"/>
+    </linearGradient>
+    <filter id="hoodieShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Main Torso & Sleeves -->
+  <path d="M 195,65 
+           C 250,95 350,95 405,65 
+           L 490,95 
+           L 580,240 
+           L 510,290 
+           L 455,220 
+           L 450,650 
+           L 150,650 
+           L 145,220 
+           L 90,290 
+           L 20,240 
+           L 110,95 Z" 
+        fill="url(#hoodieGrad)" 
+        stroke="#b91c1c" 
+        stroke-width="2.5"
+        filter="url(#hoodieShadow)"/>
+
+  <!-- Voluminous Overlapping Hood at Collar -->
+  <path d="M 195,65 C 220,12 380,12 405,65 C 370,120 230,120 195,65 Z" 
+        fill="#5b0a0a" 
+        stroke="#ef4444" 
+        stroke-width="2"/>
+  <path d="M 230,75 C 270,125 330,125 370,75" fill="none" stroke="#2a0505" stroke-width="4"/>
+
+  <!-- Thick White Drawstrings -->
+  <path d="M 260,95 C 255,160 250,220 255,270" fill="none" stroke="#f1f5f9" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="255" cy="272" r="5" fill="#cbd5e1"/>
+  
+  <path d="M 340,95 C 345,150 350,210 345,255" fill="none" stroke="#f1f5f9" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="345" cy="257" r="5" fill="#cbd5e1"/>
+
+  <!-- Athletic Front Kangaroo Pocket -->
+  <path d="M 200,450 L 400,450 L 435,590 L 165,590 Z" 
+        fill="url(#pocketGrad)" 
+        stroke="#991b1b" 
+        stroke-width="2.5"/>
+  <!-- Pocket Openings -->
+  <path d="M 200,450 L 165,590" stroke="#fca5a5" stroke-width="2"/>
+  <path d="M 400,450 L 435,590" stroke="#fca5a5" stroke-width="2"/>
+
+  <!-- Varsity Emblem / Typography -->
+  <g transform="translate(300, 260)" text-anchor="middle">
+    <text y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="64" fill="#f8fafc" stroke="#1e293b" stroke-width="2">ATHLETIC</text>
+    <text y="45" font-family="'Arial Black', sans-serif" font-weight="900" font-size="42" fill="#fbbf24">98</text>
+    <text y="70" font-family="sans-serif" font-size="12" font-weight="700" fill="#fecaca" letter-spacing="4">CHAMPIONSHIP DIVISION</text>
+  </g>
+
+  <!-- Ribbed Waistband & Cuffs -->
+  <rect x="150" y="615" width="300" height="35" fill="#3b0707" stroke="#7f1d1d" stroke-width="2"/>
+  <!-- Sleeve Cuffs -->
+  <path d="M 20,240 L 90,290" stroke="#fca5a5" stroke-width="4"/>
+  <path d="M 580,240 L 510,290" stroke="#fca5a5" stroke-width="4"/>
+</svg>
